@@ -1,0 +1,2 @@
+img: atributo alt
+a: atributo download
