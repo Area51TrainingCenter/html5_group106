@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fromulario</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section>
+	<div class="container">
+		<div class="contenedor-formulario">
+			<form name="frmcontacto" id="frmcontacto" class="formulario" action="servicio.php" method="post" enctype="multipart/form-data">
+				<input type="hidden" name="id" value="001">
+				<div class="form-group">
+					<input placeholder="nombre"  type="text" id="nombre" class="form-control" maxlength="8" minlength="3" required name="nombre" value="">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" readonly name="email" id="email" value="nuevocorreo17@gmail.com">
+				</div>
+				<div class="form-group">
+					<input type="number" class="form-control" name="numeros" required>	
+				</div>
+				<div class="form-group">
+					<input type="tel" class="form-control" name="telefono">
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" name="password">
+				</div>
+				<div class="form-group">
+					<input type="date" class="form-control" name="fecha" >
+				</div>
+				<div class="form-group">
+					<input type="file" class="form-control" name="archivo">
+				</div>
+				<div class="form-group">
+					<input type="color" class="form-control" name="archivo">
+				</div>
+				<div class="form-group">
+					<input type="url" class="form-control" name="archivo">
+				</div>
+				<div class="form-group">
+					<textarea name="mensaje" class="form-control" cols="10" rows="10" placeholder="aqui va el mensaje"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="sexo" checked="checked" value="h"><label>Hombre</label>
+					<input type="radio" name="sexo" value="m"><label>Mujer</label>
+					<input type="radio" name="sexo" value="o"><label>Otr@s</label>
+				</div>
+				<div class="form-group">
+					<input type="checkbox" name="modelo[]" value="toyota"><label>Toyota</label>
+					<input type="checkbox" name="modelo[]" checked="checked" value="nissan"><label>Nissan</label>
+					<input type="checkbox" name="modelo[]" value="ferrari"><label>Ferrari</label>
+				</div>
+				<div class="form-group">
+					<select name="distritos" multiple id="distritos" class="form-control">
+					<option value="" >-- Elegir Distrito --</option>
+					<optgroup label="Lima Norte">
+						<option value="los olivos" >Los Olivos</option>
+						<option value="independencia" >Independencia</option>
+						<option value="collique" >Collique</option>
+					</optgroup>
+					<option value="lima" >Lima</option>
+					<option value="callao" >Callao</option>
+					<option value="rimac" >Rimac</option>
+						
+					</select>
+				</div>
+					<!--<input type="checkbox" name="toyota" value="toyota">Toyota
+					<input type="checkbox" name="nissan" value="nissan">Nissan
+					<input type="checkbox" name="ferrari" value="ferrari">Ferrari-->
+				<div class="form-group ultimo">
+					<input type="submit" name="btnenviar" class="btn btnenviar" value="Enviar">
+					<input type="reset" name="btnreset" class="btn btnreset">
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: "Roboto";
+	font-size: 14px;
+	background-color: #ccc;
+	color: #000;
+	line-height: 1.5;
+}
+
+figure
+{
+	margin-bottom: 30px;
+}
+
+figure img
+{
+	margin-bottom: 5px;
+}
+
+figure figcaption
+{
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.container-fluid
+{
+	width: 100%;
+	display: table;
+}
+
+.container
+{
+	width: 1199px;
+	display: table;
+	margin: 0 auto;
+}
+
+.columna-7
+{
+	width: 66.66%;
+   /* display: inline-block;*/
+    padding: 0 15px;
+    margin: 0 -2px;
+    float: left;
+   /* vertical-align: top;*/
+}
+
+.columna-5
+{
+	float: left;
+	width: 33.33%;
+   /* display: inline-block;*/
+    padding: 0 15px;
+    margin: 0 -2px;
+ /*   vertical-align: top;*/
+}
+
+header{
+
+}
+
+footer
+{
+	text-align: center;background-color: #000;
+	color: #fff;
+	padding: 15px 0px;
+}
+
+/* esto es para el h2 */
+
+h2{
+
+	font-weight: 900;
+	font-size: 25px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+
+h2.titulo
+{
+	text-decoration: none;
+	color: red;
+}
+
+
+a
+{
+	color: red;
+}
+
+.contenedor-menu
+{
+	margin-bottom: 30px;
+}
+
+.contenedor-logo
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contenedor-logo a
+{
+	display: inline-block;
+}
+
+.contenedor-logo a img.logo
+{
+	margin-bottom: 0px;
+	width: 100px;
+	display: block;
+}
+
+ul
+{
+	padding-left: 0px;
+	text-align: center;
+}
+
+ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+ul li a
+{
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+}
+
+p
+{
+	font-size: 15px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+span
+{
+	color: red;
+}
+
+img{
+	margin-bottom: 30px;
+}
+
+img.logo{
+	/*margin: 15px auto;*/
+	/*width: 100px;*/
+	/*display: block;*/
+}
+
+img.img-responsive
+{
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.contenedor-formulario
+{
+	background-color: #fff;
+	padding: 30px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.contenedor-formulario .form-group
+{
+	margin-bottom: 15px;
+	display: block;
+}
+
+.contenedor-formulario .form-group .form-control
+{
+	height: 40px;
+	border: 1px solid #aaa;
+	font-size: 25px;
+	width: 100%;
+	padding: 5px;
+	line-height: 1;
+}
+
+.contenedor-formulario .form-group label
+{
+	font-size: 25px;
+	margin-right: 15px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+}
+
+.contenedor-formulario .form-group textarea.form-control
+{
+	height: 100px;
+}
+
+.contenedor-formulario .form-group select.form-control
+{
+	height: auto;
+}
+
+.contenedor-formulario .form-group input[type=radio],
+.contenedor-formulario .form-group input[type=checkbox]
+{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contenedor-formulario .form-group.ultimo
+{
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.contenedor-formulario .form-group .btn
+{
+	display: inline-block;
+	margin: 7.5px 15px;
+	border: none;
+	padding: 10px 15px;
+	font-size: 25px;
+	color: #fff;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.contenedor-formulario .form-group .btn.btnenviar
+{
+	background-color: red;
+}
+
+.contenedor-formulario .form-group .btn.btnenviar:hover
+{
+	background-color: black;
+}
+
+.contenedor-formulario .form-group .btn.btnreset
+{
+	background-color: #aaa;
+}
+
+.contenedor-formulario .form-group .btn.btnreset:hover
+{
+	background-color: green;
+}
+
+.box
+{
+margin-bottom: 15px;
+}
+
+.box h3
+{
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.box ul
+{
+	text-align: left;
+}
+
+.box ul.categorias
+{
+
+}
+
+.box ul.categorias li
+{
+	display: block;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.box ul.nube
+{
+
+}
+
+.box ul.nube li
+{
+	border: 1px solid #fff;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.box ul.nube li a
+{
+	font-size: 14px;
+	display: block;
+	padding: 10px;
+}
