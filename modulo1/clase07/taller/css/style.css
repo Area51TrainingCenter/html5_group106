@@ -1,0 +1,334 @@
+*
+{
+	box-sizing: border-box;
+}
+
+html
+{
+	height: 100%;
+}
+
+html,body
+{
+	min-height: 100%;
+}
+
+body{
+	font-family: "Open Sans";
+	line-height: 1.4;
+	color: #000;
+	font-weight: 400;
+	font-size: 14;
+}
+
+p
+{
+	line-height: 2;
+}
+
+footer
+{
+	background-color: #000;
+	padding: 60px 0;
+	text-align: center;
+	color: #eee;
+	line-height: 1;
+}
+
+a{
+	display: inline-block;
+}
+
+a:hover
+{
+	cursor: pointer;
+}
+
+.img-responsive
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container-fluid
+{
+	width: 100%;
+	display: table;
+}
+
+.container
+{
+	width: 1199px;
+	display: table;
+	margin: 0 auto;
+}
+
+.columna
+{
+	float: left;
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.columna-4
+{
+	width: 33.33%;
+}
+
+.columna-6
+{
+	width: 50%;
+}
+
+.columna-8
+{
+	width: 66.66%;
+}
+
+.columna-12
+{
+	width: 100%;
+}
+
+section.seccion
+{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.cabecera{
+	background-image: url('../img/fondo.jpg');
+	height: 75vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.cabecera .container{
+	position: absolute;
+    left: 0;
+    right: 0;
+	top: 50%;
+	margin-top: -71px;
+}
+
+.cabecera .container .contenedor-logo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cabecera .container .contenedor-logo a{
+	display: inline-block;
+}
+
+.cabecera .container .contenedor-logo a img.logo{
+	width: 200px;
+}
+
+.cabecera .container .contenedor-menu{
+	text-align: center;
+}
+
+.cabecera .container .contenedor-menu nav {
+
+}
+
+.cabecera .container .contenedor-menu nav ul{
+
+}
+
+.cabecera .container .contenedor-menu nav ul li{
+	display: inline-block;
+}
+
+.cabecera .container .contenedor-menu nav ul li a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+}
+
+.cabecera .container .contenedor-menu nav ul li a:hover{
+	border: 2px solid #fff;
+}
+
+section.seccion.seccion-1
+{
+
+}
+
+section.seccion.seccion-1 h2
+{
+	line-height: 1;
+	font-size: 50px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+
+section.seccion.seccion-1 time
+{
+	line-height: 1;
+	font-style: italic;
+	margin-bottom: 5px;
+	display: block;
+}
+
+section.seccion.seccion-1 h4
+{
+	line-height: 1;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+section.seccion.seccion-1 .contenido-post
+{
+
+}
+
+section.seccion.seccion-1 .contenido-post img
+{
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+section.seccion.seccion-1 .contenido-post p
+{
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+section.seccion.seccion-1 aside
+{
+
+}
+
+section.seccion.seccion-1 aside h3
+{
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+section.seccion.seccion-1 aside .box
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	display: table;
+}
+
+section.seccion.seccion-1 aside .box:last-child
+{
+	border-bottom: none;
+}
+
+section.seccion.seccion-1 aside .box h4
+{
+	text-transform: uppercase;
+}
+
+section.seccion.seccion-1 aside .box img
+{
+	float: left;
+	width: 150px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+section.seccion.seccion-1 aside .box p
+{
+	text-align: justify;
+}
+
+section.seccion.seccion-2
+{
+	background-color: #f2f2f2;
+}
+
+section.seccion.seccion-2 h3
+{
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+section.seccion.seccion-2 img.img-responsive
+{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+section.seccion.seccion-2 p
+{
+	margin-bottom: 60px;
+	text-align: justify;
+}
+
+section.seccion.seccion-2 a.btn.btnlink
+{
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	line-height: 1;
+	border-radius: 40px;
+	background-color: #e95d3c;
+	border: 2px solid #e95d3c;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+section.seccion.seccion-2 a.btn.btnlink:hover
+{
+	color: #e95d3c;
+	background-color: #fff;
+}
+
+section.seccion.seccion-3
+{
+	color: #fff;
+	background-color: rgb(29,29,29);
+}
+
+section.seccion.seccion-3 h3
+{
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+section.seccion.seccion-3 ul
+{
+
+}
+
+section.seccion.seccion-3 ul li
+{
+	padding: 15px 0;
+	border-bottom: 1px solid #aaa;
+}
+
+section.seccion.seccion-3 ul li:last-child
+{
+	border-bottom:none;
+}
+
+section.seccion.seccion-3 ul li a
+{
+	color: #aaa;
+	text-decoration: none;
+}
+
+.clear
+{
+	clear: both;
+}
