@@ -699,6 +699,7 @@ section.seccion.seccion-3 a.boton.btnverde
 section.seccion.seccion-4 .container
 {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 section.seccion.seccion-4 .container:before
@@ -709,7 +710,7 @@ section.seccion.seccion-4 .container:before
 
 section.seccion.seccion-4 .columna.columna-4
 {
-	flex-wrap: wrap;
+
 }
 
 section.seccion.seccion-4 .columna.columna-4 div
