@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="container-calc">
+			<input id="resultado" type="text" value="0">
+		</div>
+		<div class="botonesnumeros">
+			<div class="botones btnnumero" data-numero="9" >9</div>
+			<div class="botones btnnumero" data-numero="8" >8</div>
+			<div class="botones btnnumero" data-numero="7" >7</div>
+			<div class="botones btnnumero" data-numero="6" >6</div>
+			<div class="botones btnnumero" data-numero="5" >5</div>
+			<div class="botones btnnumero" data-numero="4" >4</div>
+			<div class="botones btnnumero" data-numero="3" >3</div>
+			<div class="botones btnnumero" data-numero="2" >2</div>
+			<div class="botones btnnumero" data-numero="1" >1</div>
+			<div class="botones botoncero btnnumero" data-numero="0" >0</div>
+		</div>
+		<div class="botonessignos">
+			<div class="botones btnsigno" data-signo="sumar" >+</div>
+			<div class="botones btnsigno" data-signo="restar" >-</div>
+			<div class="botones btnsigno" data-signo="multiplicar" >X</div>
+			<div class="botones btnsigno" data-signo="dividir" >/</div>
+		</div>
+		<div class="botonesfinales">
+			<div class="botones" id="igual">=</div>
+			<div class="botones" id="resetear">CE</div>
+		</div>
+	</div>
+<script src="js/jquery.js"></script>
+<script src="js/funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #eee;
+	font-family: "arial";
+}
+
+.container
+{
+	width: 480px;
+	display: table;
+	margin: 0 auto;
+}
+
+.form-group
+{
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.form-group input
+{
+	border: 1px solid #ccc;
+	padding: 10px 15px;
+	height: 40px;
+	font-size: 30px;
+	width: 100%;
+	text-align: right;
+	line-height:1;
+	transition: all .3s ease-in;
+}
+
+.form-group input:focus{
+	outline: 1px solid black;
+}
+
+.signos{
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.signos .signo{
+	float: left;
+	padding: 40px;
+	width: 25%;
+	font-size: 30px;
+	text-align: center;
+	background-color: #ccc;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	line-height:1;
+	transition: all .3s ease-in;
+}
+
+.signos .signo:hover{
+	background-color: #fff;
+}
+
+.signos .signo.igual,
+.signos .signo.ce{
+	width: 50%;
+}

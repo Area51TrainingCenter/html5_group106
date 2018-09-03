@@ -1,0 +1,79 @@
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: arial;
+		}
+		.contenedor
+		{
+			width: 500px;
+			display: table;
+		}
+
+		.botones
+		{
+			background-color: #ccc;
+			padding: 20px;
+			font-size: 20px;
+			float: left;
+			text-align: center;
+			border: 1px solid #aaa;
+			cursor: pointer;
+		}
+		.botonesnumeros
+		{
+		
+		}
+
+		.botonesnumeros .botones
+		{
+			width: 33.33%;
+		}
+
+		.botonesnumeros .botones.botoncero
+		{
+			width: 100%;
+		}
+
+		.botonesnumeros,.botonessignos,.botonesfinales
+		{
+			float: left;
+			display: table;
+		}
+
+		.botonesnumeros,.botonessignos
+		{
+			width: 50%;
+		}
+
+		.botonessignos .botones
+		{
+			width: 100%;
+		}
+
+		.botonesfinales
+		{
+			width: 100%;
+		}
+
+		.botonesfinales .botones
+		{
+			width: 50%;
+		}
+
+		.container-calc
+		{
+			width: 100%;
+		}
+
+		.container-calc #resultado
+		{
+			width: 100%;
+			border: 1px solid #ddd;
+			background-color: #fff;
+			padding: 20px 15px;
+			height: 85px;
+			text-align: right;
+			color: #000;
+			font-size: 40px;
+		}
