@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.item-titulo
+{
+	cursor: pointer;
+}
+
+.item-titulo h2
+{
+	
+}
+
+.item-titulo i
+{
+	
+}
+
+.item-cuerpo
+{
+	display: none;
+}

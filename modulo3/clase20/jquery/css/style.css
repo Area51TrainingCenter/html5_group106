@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+.btnadd,.btnremove, .btntoggle{
+	display: inline-block;
+	padding: 10px 15px;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	margin: 0 15px;
+}
+
+.cuadro
+{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	transition: all ease-in .3s;
+	margin-bottom: 30px;
+}
+
+.cuadro.verde
+{
+	background-color: green;
+}
+
+.resultado{
+	width: 500px;
+	height: 500px;
+	border: 1px solid #000;
+	overflow-y: scroll;
+}
