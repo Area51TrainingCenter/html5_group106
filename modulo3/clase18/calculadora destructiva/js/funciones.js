@@ -24,7 +24,7 @@ function total() {
 		subtotal = numero1 - numero2;
 	}else if (signo == "multiplicar") {
 		subtotal = numero1 * numero2;
-	}else (signo == "dividir") {
+	}else if(signo == "dividir") {
 		subtotal = numero1 / numero2;
 	}
 
